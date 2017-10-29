@@ -5,8 +5,16 @@
 
 class Ship{
   public:
-    Ship(int x, int y);
+    Ship(double x_, double y_);
     ~Ship();
+  
+  double x;
+  double y;
+  
+  void setX(double x_);
+  double getX();
+  void setY(double y_);
+  double getY();
 };
 
 #endif
